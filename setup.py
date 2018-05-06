@@ -18,7 +18,7 @@ config = {
 	'long_description': 'A tool for scraping thread titles and posts (articles) from historical Google Groups Usenet archives.',
 	'keywords': '',
 	'install_requires': ['nose'],
-	'packages': ['PLACEHOLDER_NAME'],
+	'packages': ['scraper'],
 	'scripts': []
 }
 	
