@@ -2,6 +2,11 @@
 
 A tool for scraping thread titles and posts (articles) from historical Google Groups Usenet archives.
 
+## Introduction
+"scraper.py" is messy, uncommented, and only capable of scraping thread headers right now, but it's a start.
+
+The script loads one week's worth of threads at a time and exports the thread title, URL, and other data to a JSON for that period. Unfortuantely, the process is quite slow because each page of thread results must be rendered with JavaScript in order for the content to be accessible via lxml. It took maybe 12 hours to load and extract content for ~160,000 thread titles from alt.conspiracy (my area of research interest).
+
 ## License
 
 Google Groups Scraper
